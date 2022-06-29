@@ -9,7 +9,7 @@ public class Main {
         int n2 = input.nextByte();
         int i = 1;
         int k = n1;
-        int ebob=0;
+        int ebob = 0;
         int ekok;
 
         while (i <= n1) {
@@ -22,10 +22,9 @@ public class Main {
 
         }
         System.out.println("----------");
-        ekok=(n1*n2)/ebob;
-        System.out.println("Ekok :"+ekok);
-        System.out.println("Ebob"+ebob);
-
+        ekok = (n1 * n2) / ebob;
+        System.out.println("Ekok :" + ekok);
+        System.out.println("Ebob" + ebob);
 
 
     }
